@@ -1,6 +1,7 @@
 .sidebar--listado {
   max-width: 300px;
   padding: 20px;
+  max-height: 550px;
   @include caja();
   h3 {
     @include font-size(20px);
