@@ -1,3 +1,4 @@
+/****** > config ******/
 /* Reboot Codes - Based on normalize.css v5.0.0
 **********************/
 html {
@@ -498,6 +499,8 @@ main {
 
 /* Media Queries Mixin
 **********************/
+/****** > config ******/
+/****** > components ******/
 .header--principal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -865,3 +868,5 @@ main {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/****** > components ******/
