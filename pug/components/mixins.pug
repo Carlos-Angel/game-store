@@ -74,7 +74,15 @@ mixin caja--con-fondo-pequena (clase, imagen, categoria, titulo, contenido)
 		+estadistica--caja-con-fondo
 
 mixin listado-categoria(numero,titulo)
-	li: a(href="#")
+	li: a(href="articulo.html")
 		span.sidebar--listado__numero=numero
 		span.sidebar--listado__titulo=titulo
 		
+mixin caja(imagen, categoria, titulo, contenido)
+	.caja
+		.caja__imagen: img(src="../assets/images/"+imagen)
+		.caja__contenido
+			span.caja__categoria=categoria
+			h3=titulo
+			p=contenido
+			a Leer Mas
