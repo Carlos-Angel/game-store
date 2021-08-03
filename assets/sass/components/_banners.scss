@@ -19,6 +19,8 @@
     height: 50px;
     border: 2px solid $color-claro;
     border-radius: 40px;
+    text-decoration: none;
+    color: $color-claro;
     @include font-size(18px);
     @include titulos($Fuente2);
   }

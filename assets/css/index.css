@@ -975,6 +975,8 @@ main {
   height: 50px;
   border: 2px solid #fff;
   border-radius: 40px;
+  text-decoration: none;
+  color: #fff;
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.6875rem;
