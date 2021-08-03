@@ -73,19 +73,34 @@
   justify-content: space-evenly;
 }
 
+.contenido{
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  @include contenedor();
+}
+
 .caja {
   max-width: 430px;
-  @include caja();
+  @include caja-sombra();
+
+  img {
+    width: 100%;
+  }
+
   &__contenido {
-    padding: 25px;
+    padding: 20px;
     background-color: $color-claro;
+    span {
+      color: $color-secundario;
+      @include titulos($Fuente2);
+    }
+  
+    h3{
+        font-weight: normal;
+        @include titulos($Fuente2);
+    }
   }
-
-  span {
-    color: $color-secundario;
-    @include titulos($Fuente2);
-  }
-
+  
   a {
     text-decoration: none;
     color: $color-variacion;

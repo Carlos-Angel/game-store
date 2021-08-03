@@ -45,3 +45,24 @@
     @include titulos($Fuente2);
   }
 }
+
+.estadistica--articulos {
+  height: 70px;
+  padding: 20px;
+  border-top: 1px solid get-opacity($color-primario, 0.20);
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    li {
+      list-style: none;
+      color: get-opacity($color-primario, .30);
+    }
+    span {
+      color: get-opacity($color-primario, .30);
+      margin-left: 10px;
+    }
+  }
+}

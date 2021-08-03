@@ -24,6 +24,15 @@ mixin caja--estadistica(imagen, category, title, summary)
 			p=summary
 		+estadistica
 
+mixin caja-stats(imagen, category, title, summary)
+	.caja
+		a(href="#",class="caja__imagen"): img(src="../assets/images/"+imagen)
+		.caja__contenido
+			span.caja__categoria=category
+			h3=title
+			p=summary
+		+estadistica
+
 mixin estadistica
 	.estadistica--articulos: ul
 		li

@@ -13,6 +13,12 @@ $color-claro: #fff;
   background-color: $color-claro;
 }
 
+@mixin caja-sombra {
+  background-color: $color-claro;
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.10);
+
+}
+
 @mixin titulos($fuente) {
   @if $fuente ==$Fuente1 {
     font-family: $Fuente1;
@@ -21,6 +27,13 @@ $color-claro: #fff;
     text-transform: uppercase;
     font-weight: 700;
   }
+}
+
+@mixin contenedor(){
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+  padding: 30px 0;
 }
 
 // Functions
