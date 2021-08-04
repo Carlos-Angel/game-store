@@ -1,4 +1,4 @@
-/****** > config ******/
+/****** > imports ******/
 /* Reboot Codes - Based on normalize.css v5.0.0
 **********************/
 html {
@@ -455,6 +455,10 @@ output {
 [hidden] {
   display: none !important;
 }
+/* Media Queries Mixin
+**********************/
+/****** > imports ******/
+/****** > config ******/
 h1 {
   font-size: 30px;
   font-family: "Oswald", sans-serif;
@@ -497,8 +501,6 @@ main {
   height: 100vh;
 }
 
-/* Media Queries Mixin
-**********************/
 /****** > config ******/
 /****** > components ******/
 .header--principal {

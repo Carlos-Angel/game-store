@@ -1,8 +1,11 @@
+/****** > imports ******/
+@import './imports/_bootstrap_reboot';
+@import './imports/_breakpoints';
+@import './imports/_grids';
+/****** > imports ******/
+
 /****** > config ******/
-@import './config/_bootstrap_reboot';
 @import './config/_globals';
-@import './config/_breakpoints';
-@import './config/_grids';
 /****** > config ******/
 
 /****** > components ******/

@@ -1,0 +1,9 @@
+// Functions
+@function get-opacity($color, $amount) {
+  @return rgba($color, $amount);
+}
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
